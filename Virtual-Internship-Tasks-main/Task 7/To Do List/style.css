@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e75e5e;
+    background: linear-gradient(#ee4a4a, #3c98e3, #45a049, rgb(236, 236, 77));
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    display: grid;
+    
+}
+.d1{
+    height: 0.8vh;
+    
+}
+.logo {
+    height: 10vh;
+    width: auto; /* Allow the width to adjust based on the height */
+    margin-left: 5px; /* Add some space to the left of the image */
+}
+h1 {
+    text-align: right;
+}
+
+#task-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}/* Add this style for the Edit button */
+.edit-button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    margin-right: 4px; /* Add some space between Edit and Delete buttons */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #0b7dda;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+li span {
+    flex: 1;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+   background-image: url(images/ba482e5445554252a116ffc7d603bc11.webp);
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background-color: black;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgba(255,255,2550.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box h2{
+    color: #f01717;
+    text-align: center;
+    font-size: 32px;
+}
+.form-box .input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.form-box .input-box input{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: #fff;
+    font-size: 16px;
+}
+input::placeholder{
+    color: #fff;
+}
+.form-box .button{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.button input[type="submit"] {
+    background-color: rgb(93, 93, 243);
+    color: white; /* Optional: Set text color to white for better contrast */
+    text-align: center;
+    justify-content: center;
+    border-color: rgb(239, 20, 20); 
+  }
+  .button {
+    text-align: center;
+  }
+  
+.btn{
+    color: #fa0c0c;
+    background: rgb(222, 18, 18);
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 3px 0 10px rgba(0,0,0,.5);
+    text-align: center;
+
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+.group span a{
+    color: #070101;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.group a:focus{
+    text-decoration: underline;
+}
